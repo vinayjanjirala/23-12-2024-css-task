@@ -1,0 +1,30 @@
+.container{
+    height: 50vh;
+    width: 60vw;
+    background-color: navy;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 100px;
+}
+.con{
+     background-color: rgb(101, 236, 101);
+     border: 2px solid black;
+     
+}
+.con-1{
+    grid-row: 1/4;
+}
+.con-2{
+    grid-column: 2/4;
+}
+.con-6{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.con-3,.con-5,.con-7{
+    background-color: rgb(200, 54, 54);
+}
+.con-4,.con-8{
+    background-color: rgb(230, 199, 26);
+}
